@@ -1,9 +1,11 @@
 # spring-mybatis
 spring-boot实现mybatis分页
 
-sql
+分页插件：pageHelper
 
--- Create table
+表相关信息：
+sql
+```
 create table MOT_ACTIVITY
 (
   activity_id   NUMBER(20) not null,
@@ -66,4 +68,4 @@ alter table MOT_ACTIVITY
     minextents 1
     maxextents unlimited
   );
-
+```
