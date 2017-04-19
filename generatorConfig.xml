@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+	<classPathEntry location="D:\maven\.m2\repository\oracle\oracle\11.2.0\oracle-11.2.0.jar" />
+	<context id="context1">
+		<jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
+			connectionURL="jdbc:oracle:thin:@192.168.55.4:1521:acrmdbdev" userId="mot"
+			password="mot_uat" />
+		<javaModelGenerator targetPackage="com.linkstec.mybatis.model"
+			targetProject="spring-mybatis/src/main/java" />
+		<sqlMapGenerator targetPackage="com.linkstec.mybatis.mapper"
+			targetProject="spring-mybatis/src/main/java" />
+		<javaClientGenerator targetPackage="com.linkstec.mybatis.dao"
+			targetProject="spring-mybatis/src/main/java" type="XMLMAPPER" />
+		<table tableName="MOT_ACTIVITY">
+		</table>
+	</context>
+</generatorConfiguration>
