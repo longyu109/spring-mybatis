@@ -1,7 +1,9 @@
 # spring-mybatis
 spring-boot实现mybatis分页
 
-分页插件：pageHelper
+1.分页插件：pageHelper
+
+2.mybatis generator自动生成dao,model以及xml文件
 
 表相关信息：
 sql
